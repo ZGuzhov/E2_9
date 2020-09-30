@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Список последник 10 писем:</h1>
+  {% for email in list %}<br>
+    {{ email }}
+  {% endfor %}
+{% endblock %}
