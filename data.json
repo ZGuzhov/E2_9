@@ -1,0 +1,189 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$216000$DMwq4HaJsAKw$LXc5Bwk2TmwwuNY3n4vVAvu64f4sCGR2PwqEJXQXSss=",
+        "last_login": "2020-10-01T15:26:33.780Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2020-10-01T15:26:09.959Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "uk6hqvw1rhusq9c1mcx6psx1rqf0a733",
+    "fields": {
+        "session_data": ".eJxVjMsOgjAUBf-la9OU0tuKS_d8Q3NfFdRAQmFl_HclYaHbMzPnZTJu65C3qksexVxMY06_GyE_dNqB3HG6zZbnaV1GsrtiD1ptP4s-r4f7dzBgHb61iy6WtlNU30afAgRglgLnEDl4UIKAXkhT8Y5TI9D6AhIjdVQ4AJn3B9ZuOAM:1kO0TZ:vqfmhEIdp3ZdCPumJn_rFh5l_LOvUap3S6lBH7k1jtE",
+        "expire_date": "2020-10-15T15:26:33.786Z"
+    }
+},
+{
+    "model": "send_emails.emaillist",
+    "pk": 1,
+    "fields": {
+        "message": "First",
+        "delay": 0,
+        "email": null
+    }
+},
+{
+    "model": "send_emails.emaillist",
+    "pk": 2,
+    "fields": {
+        "message": "Second",
+        "delay": 1,
+        "email": null
+    }
+},
+{
+    "model": "send_emails.emaillist",
+    "pk": 3,
+    "fields": {
+        "message": "Third",
+        "delay": 2,
+        "email": null
+    }
+},
+{
+    "model": "send_emails.emaillist",
+    "pk": 4,
+    "fields": {
+        "message": "Four",
+        "delay": 1,
+        "email": ""
+    }
+},
+{
+    "model": "send_emails.emaillist",
+    "pk": 5,
+    "fields": {
+        "message": "Five",
+        "delay": 3,
+        "email": "evgeny.guzhov.32@gmail.com"
+    }
+},
+{
+    "model": "send_emails.emaillist",
+    "pk": 6,
+    "fields": {
+        "message": "Six",
+        "delay": 2,
+        "email": ""
+    }
+},
+{
+    "model": "send_emails.emaillist",
+    "pk": 7,
+    "fields": {
+        "message": "Seven",
+        "delay": 6,
+        "email": ""
+    }
+},
+{
+    "model": "send_emails.emaillist",
+    "pk": 8,
+    "fields": {
+        "message": "Eight",
+        "delay": 1,
+        "email": ""
+    }
+},
+{
+    "model": "send_emails.emaillist",
+    "pk": 9,
+    "fields": {
+        "message": "Nine",
+        "delay": 56,
+        "email": ""
+    }
+},
+{
+    "model": "send_emails.emaillist",
+    "pk": 10,
+    "fields": {
+        "message": "Ten",
+        "delay": 45,
+        "email": ""
+    }
+},
+{
+    "model": "send_emails.emaillist",
+    "pk": 11,
+    "fields": {
+        "message": "Eleven",
+        "delay": 12,
+        "email": ""
+    }
+},
+{
+    "model": "send_emails.emaillist",
+    "pk": 12,
+    "fields": {
+        "message": "Twelve",
+        "delay": 12,
+        "email": ""
+    }
+},
+{
+    "model": "send_emails.emaillist",
+    "pk": 13,
+    "fields": {
+        "message": "13",
+        "delay": 13,
+        "email": ""
+    }
+},
+{
+    "model": "send_emails.emaillist",
+    "pk": 14,
+    "fields": {
+        "message": "14",
+        "delay": 14,
+        "email": ""
+    }
+},
+{
+    "model": "send_emails.emaillist",
+    "pk": 15,
+    "fields": {
+        "message": "15",
+        "delay": 15,
+        "email": ""
+    }
+},
+{
+    "model": "send_emails.emaillist",
+    "pk": 16,
+    "fields": {
+        "message": "16",
+        "delay": 16,
+        "email": ""
+    }
+},
+{
+    "model": "send_emails.emaillist",
+    "pk": 17,
+    "fields": {
+        "message": "17",
+        "delay": 17,
+        "email": ""
+    }
+},
+{
+    "model": "send_emails.emaillist",
+    "pk": 18,
+    "fields": {
+        "message": "18",
+        "delay": 18,
+        "email": ""
+    }
+}
+]

@@ -15,12 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from send_emails.views import MainView, OkView
-from send_emails import views
+from send_emails.views import MainView, OkView, EmailListView
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', MainView.as_view(), name='main'),
     path('ok/', OkView.as_view(), name='ok'),
-    path('list/', views.ListEmail, name='list'),
+    path('list/', EmailListView.as_view(), name='list'),
 ]

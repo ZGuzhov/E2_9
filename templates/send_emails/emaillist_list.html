@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Список последник 10 писем:</h1>
+  {% if object_list %}
+    {% for email in object_list %}
+      <p>Письмо с текстом: {{ email }}, с задержкой {{ email.delay }} с.</p>
+    {% endfor %}
+  {% endif %}
+{% endblock %}

@@ -1,3 +1,7 @@
 from django.contrib import admin
+from send_emails.models import EmailList
 
-# Register your models here.
+
+@admin.register(EmailList)
+class EmailAdmin(admin.ModelAdmin):
+    pass
